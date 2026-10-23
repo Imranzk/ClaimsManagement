@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2CzSpz2DTmI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\imran\\ClaimsManagement\\Claims.Api\\Claims.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\imran\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.12\\microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "C:\\Users\\imran\\.nuget\\packages\\microsoft.openapi\\2.12.0\\microsoft.openapi.2.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}
