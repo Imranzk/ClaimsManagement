@@ -1,0 +1,11 @@
+C:\Users\imran\ClaimsManagement\Claims.Domain\bin\Debug\net10.0\Claims.Domain.deps.json
+C:\Users\imran\ClaimsManagement\Claims.Domain\bin\Debug\net10.0\Claims.Domain.dll
+C:\Users\imran\ClaimsManagement\Claims.Domain\bin\Debug\net10.0\Claims.Domain.pdb
+C:\Users\imran\ClaimsManagement\Claims.Domain\obj\Debug\net10.0\Claims.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imran\ClaimsManagement\Claims.Domain\obj\Debug\net10.0\Claims.Domain.AssemblyInfoInputs.cache
+C:\Users\imran\ClaimsManagement\Claims.Domain\obj\Debug\net10.0\Claims.Domain.AssemblyInfo.cs
+C:\Users\imran\ClaimsManagement\Claims.Domain\obj\Debug\net10.0\Claims.Domain.csproj.CoreCompileInputs.cache
+C:\Users\imran\ClaimsManagement\Claims.Domain\obj\Debug\net10.0\Claims.Domain.dll
+C:\Users\imran\ClaimsManagement\Claims.Domain\obj\Debug\net10.0\refint\Claims.Domain.dll
+C:\Users\imran\ClaimsManagement\Claims.Domain\obj\Debug\net10.0\Claims.Domain.pdb
+C:\Users\imran\ClaimsManagement\Claims.Domain\obj\Debug\net10.0\ref\Claims.Domain.dll
