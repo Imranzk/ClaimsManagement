@@ -5,4 +5,4 @@ using MediatR;
 namespace Claims.Application.Features.Claims.Commands.CreateClaim;
 
 public record CreateClaimCommand(CreateClaimDto Claim)
-    : IRequest<Guid>;
+    : IRequest<ClaimDto>;

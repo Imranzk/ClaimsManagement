@@ -9,3 +9,9 @@ C:\Users\imran\ClaimsManagement\Claims.Domain\obj\Debug\net10.0\Claims.Domain.dl
 C:\Users\imran\ClaimsManagement\Claims.Domain\obj\Debug\net10.0\refint\Claims.Domain.dll
 C:\Users\imran\ClaimsManagement\Claims.Domain\obj\Debug\net10.0\Claims.Domain.pdb
 C:\Users\imran\ClaimsManagement\Claims.Domain\obj\Debug\net10.0\ref\Claims.Domain.dll
+C:\Users\imran\AppData\Local\Temp\ClaimsManagementPart22A\bin\Debug\net10.0\Claims.Domain.deps.json
+C:\Users\imran\AppData\Local\Temp\ClaimsManagementPart22A\bin\Debug\net10.0\Claims.Domain.dll
+C:\Users\imran\AppData\Local\Temp\ClaimsManagementPart22A\bin\Debug\net10.0\Claims.Domain.pdb
+C:\Users\imran\AppData\Local\Temp\ClaimsManagementDocs\bin\Debug\net10.0\Claims.Domain.deps.json
+C:\Users\imran\AppData\Local\Temp\ClaimsManagementDocs\bin\Debug\net10.0\Claims.Domain.dll
+C:\Users\imran\AppData\Local\Temp\ClaimsManagementDocs\bin\Debug\net10.0\Claims.Domain.pdb

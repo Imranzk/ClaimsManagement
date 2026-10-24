@@ -29,14 +29,14 @@ public class ClaimsController : ControllerBase
         [FromBody] CreateClaimDto request,
         CancellationToken cancellationToken)
     {
-        var id = await _sender.Send(
+        var claim = await _sender.Send(
             new CreateClaimCommand(request),
             cancellationToken);
 
         return CreatedAtAction(
             nameof(GetById),
-            new { id },
-            new { id, message = "Claim submitted successfully." });
+            new { id = claim.Id },
+            claim);
     }
 
    // GET: api/Claims
@@ -45,13 +45,35 @@ public async Task<IActionResult> GetAll(
     [FromQuery] string? status,
     [FromQuery] string? market,
     [FromQuery] string? assignedOfficer,
+    [FromQuery] string? claimantEmail,
     CancellationToken cancellationToken)
 {
     var claims = await _sender.Send(
-        new GetClaimsQuery(status, market, assignedOfficer),
+        new GetClaimsQuery(status, market, assignedOfficer, claimantEmail),
         cancellationToken);
 
     return Ok(claims);
+}
+
+// GET: api/Claims/track/{claimNumber}
+[HttpGet("track/{claimNumber}")]
+public async Task<IActionResult> GetByClaimNumber(
+    string claimNumber,
+    CancellationToken cancellationToken)
+{
+    var claim = await _sender.Send(
+        new GetClaimByClaimNumberQuery(claimNumber),
+        cancellationToken);
+
+    if (claim is null)
+    {
+        return NotFound(new
+        {
+            message = $"Claim with number '{claimNumber}' was not found."
+        });
+    }
+
+    return Ok(claim);
 }
 
 // GET: api/Claims/{id}

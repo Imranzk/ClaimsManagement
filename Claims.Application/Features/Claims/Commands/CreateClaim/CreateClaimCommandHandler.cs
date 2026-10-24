@@ -1,5 +1,6 @@
 
 using Claims.Application.Common.Interfaces;
+using Claims.Application.DTOs;
 using Claims.Domain.Entities;
 using Claims.Domain.Enums;
 using MediatR;
@@ -7,7 +8,7 @@ using MediatR;
 namespace Claims.Application.Features.Claims.Commands.CreateClaim;
 
 public class CreateClaimCommandHandler
-    : IRequestHandler<CreateClaimCommand, Guid>
+    : IRequestHandler<CreateClaimCommand, ClaimDto>
 {
     private readonly IAppDbContext _context;
 
@@ -16,7 +17,7 @@ public class CreateClaimCommandHandler
         _context = context;
     }
 
-    public async Task<Guid> Handle(
+    public async Task<ClaimDto> Handle(
         CreateClaimCommand request,
         CancellationToken cancellationToken)
     {
@@ -51,6 +52,23 @@ public class CreateClaimCommandHandler
 
         await _context.SaveChangesAsync(cancellationToken);
 
-        return claim.Id;
+        return new ClaimDto
+        {
+            Id = claim.Id,
+            ClaimNumber = claim.ClaimNumber,
+            ClaimantName = claim.ClaimantName,
+            ClaimantEmail = claim.ClaimantEmail,
+            Market = claim.Market,
+            ClaimType = claim.ClaimType,
+            IncidentDate = claim.IncidentDate,
+            IncidentDescription = claim.IncidentDescription,
+            EstimatedAmount = claim.EstimatedAmount,
+            Status = claim.Status,
+            AssignedOfficer = claim.AssignedOfficer,
+            AdditionalInformation = claim.AdditionalInformation,
+            DecisionReason = claim.DecisionReason,
+            CreatedAtUtc = claim.CreatedAtUtc,
+            UpdatedAtUtc = claim.UpdatedAtUtc
+        };
     }
 }

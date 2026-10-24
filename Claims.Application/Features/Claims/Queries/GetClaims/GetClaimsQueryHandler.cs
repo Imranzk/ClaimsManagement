@@ -47,6 +47,12 @@ public class GetClaimsQueryHandler
             query = query.Where(c => c.AssignedOfficer == officer);
         }
 
+        if (!string.IsNullOrWhiteSpace(request.ClaimantEmail))
+        {
+            var claimantEmail = request.ClaimantEmail.Trim();
+            query = query.Where(c => c.ClaimantEmail == claimantEmail);
+        }
+
         return await query
             .OrderByDescending(c => c.CreatedAtUtc)
             .Select(c => new ClaimDto

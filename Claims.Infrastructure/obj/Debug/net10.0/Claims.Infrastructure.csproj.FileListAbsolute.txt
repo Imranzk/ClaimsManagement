@@ -17,3 +17,11 @@ C:\Users\imran\ClaimsManagement\Claims.Infrastructure\obj\Debug\net10.0\refint\C
 C:\Users\imran\ClaimsManagement\Claims.Infrastructure\obj\Debug\net10.0\Claims.Infrastructure.pdb
 C:\Users\imran\ClaimsManagement\Claims.Infrastructure\obj\Debug\net10.0\Claims.Infrastructure.genruntimeconfig.cache
 C:\Users\imran\ClaimsManagement\Claims.Infrastructure\obj\Debug\net10.0\ref\Claims.Infrastructure.dll
+C:\Users\imran\AppData\Local\Temp\ClaimsManagementPart22A\bin\Debug\net10.0\Claims.Infrastructure.deps.json
+C:\Users\imran\AppData\Local\Temp\ClaimsManagementPart22A\bin\Debug\net10.0\Claims.Infrastructure.runtimeconfig.json
+C:\Users\imran\AppData\Local\Temp\ClaimsManagementPart22A\bin\Debug\net10.0\Claims.Infrastructure.dll
+C:\Users\imran\AppData\Local\Temp\ClaimsManagementPart22A\bin\Debug\net10.0\Claims.Infrastructure.pdb
+C:\Users\imran\AppData\Local\Temp\ClaimsManagementDocs\bin\Debug\net10.0\Claims.Infrastructure.deps.json
+C:\Users\imran\AppData\Local\Temp\ClaimsManagementDocs\bin\Debug\net10.0\Claims.Infrastructure.runtimeconfig.json
+C:\Users\imran\AppData\Local\Temp\ClaimsManagementDocs\bin\Debug\net10.0\Claims.Infrastructure.dll
+C:\Users\imran\AppData\Local\Temp\ClaimsManagementDocs\bin\Debug\net10.0\Claims.Infrastructure.pdb
