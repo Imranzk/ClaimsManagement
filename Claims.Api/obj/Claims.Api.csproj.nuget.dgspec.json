@@ -68,6 +68,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.1, )"
             }
           },
           "imports": [
@@ -570,6 +574,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.5.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.13, )"
             }
           },
           "imports": [

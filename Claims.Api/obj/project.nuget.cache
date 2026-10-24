@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Alcby0PGwZc=",
+  "dgSpecHash": "3Ee2mHVJDvs=",
   "success": true,
   "projectFilePath": "C:\\Users\\imran\\ClaimsManagement\\Claims.Api\\Claims.Api.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\imran\\.nuget\\packages\\microsoft.entityframeworkcore.design\\10.0.13\\microsoft.entityframeworkcore.design.10.0.13.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.13\\microsoft.entityframeworkcore.relational.10.0.13.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\10.0.13\\microsoft.entityframeworkcore.sqlserver.10.0.13.nupkg.sha512",
+    "C:\\Users\\imran\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.13\\microsoft.extensions.dependencymodel.10.0.13.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\microsoft.identity.client\\4.84.2\\microsoft.identity.client.4.84.2.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\microsoft.identity.client.broker\\4.84.2\\microsoft.identity.client.broker.4.84.2.nupkg.sha512",
@@ -44,6 +45,10 @@
     "C:\\Users\\imran\\.nuget\\packages\\microsoft.visualstudio.solutionpersistence\\1.0.52\\microsoft.visualstudio.solutionpersistence.1.0.52.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
+    "C:\\Users\\imran\\.nuget\\packages\\swashbuckle.aspnetcore\\10.3.1\\swashbuckle.aspnetcore.10.3.1.nupkg.sha512",
+    "C:\\Users\\imran\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.3.1\\swashbuckle.aspnetcore.swagger.10.3.1.nupkg.sha512",
+    "C:\\Users\\imran\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.3.1\\swashbuckle.aspnetcore.swaggergen.10.3.1.nupkg.sha512",
+    "C:\\Users\\imran\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.3.1\\swashbuckle.aspnetcore.swaggerui.10.3.1.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\system.clientmodel\\1.8.0\\system.clientmodel.1.8.0.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\imran\\.nuget\\packages\\system.composition\\9.0.0\\system.composition.9.0.0.nupkg.sha512",

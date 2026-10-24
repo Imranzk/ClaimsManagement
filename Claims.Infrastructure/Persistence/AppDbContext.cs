@@ -1,10 +1,10 @@
-
+using Claims.Application.Common.Interfaces;
 using Claims.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Claims.Infrastructure.Persistence;
 
-public class AppDbContext : DbContext
+public class AppDbContext : DbContext, IAppDbContext
 {
     public AppDbContext(DbContextOptions<AppDbContext> options)
         : base(options)

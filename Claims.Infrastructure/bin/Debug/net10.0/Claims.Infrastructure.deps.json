@@ -998,7 +998,8 @@
           "Claims.Domain": "1.0.0",
           "FluentValidation": "12.2.0",
           "FluentValidation.DependencyInjectionExtensions": "12.2.0",
-          "MediatR": "12.5.0"
+          "MediatR": "12.5.0",
+          "Microsoft.EntityFrameworkCore": "10.0.13"
         },
         "runtime": {
           "Claims.Application.dll": {
