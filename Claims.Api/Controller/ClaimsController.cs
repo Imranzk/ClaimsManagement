@@ -9,7 +9,6 @@ using Claims.Application.Features.Claims.Commands.ProvideInformation;
 using Claims.Application.Features.Claims.Commands.ApproveClaim;
 using Claims.Application.Features.Claims.Commands.RejectClaim;
 using Claims.Application.Features.Claims.Commands.SettleClaim;
-using Claims.Application.Features.Claims.Queries.GetClaims;
 
 namespace Claims.Api.Controllers;
 
