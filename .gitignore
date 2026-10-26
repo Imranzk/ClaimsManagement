@@ -1,0 +1,16 @@
+# .NET build output
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Angular generated files
+claims-ui/node_modules/
+claims-ui/dist/
+claims-ui/.angular/
